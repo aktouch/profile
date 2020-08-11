@@ -3,7 +3,7 @@
 
 .header {
     padding: 25% 30px; /*余白 https://techacademy.jp/magazine/8274*/
-    height: 100vh;
+    height: auto;
     background-color: #4C75DF;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .profile {
-    height: 125vh;
+    height: auto;
     background-color: #4C75DF;
 }
 
@@ -83,7 +83,7 @@ header {
 #nav-open span, #nav-open span:before, #nav-open span:after {
   position: absolute;
   height: 6px;/*線の太さ*/
-  width: 50px;/*長さ*/
+  width: 40px;/*長さ*/
   border-radius: 3px;
   background: #4C75DF;
   display: block;
@@ -155,7 +155,7 @@ header {
 
 .content a {
   border-bottom: 1px solid #ebebeb;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight:  bold;
   padding: 2rem 0 0 0;
   text-decoration: none;
